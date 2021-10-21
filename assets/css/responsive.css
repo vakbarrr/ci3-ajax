@@ -1,0 +1,361 @@
+@media screen and (max-width: 768px)
+{
+	/*====================================== SECTION DEFAULT ======================================*/
+	h1 { font-size: 36px; line-height: 44px;}
+	h2 { font-size: 26px; line-height: 32px;}
+	h3 { font-size: 18px; line-height: 26px;}
+	h4 { font-size: 16px; line-height: 24px;}
+	h5 { font-size: 15px; line-height: 23px;}
+	h6 { font-size: 12px; line-height: 20px;}
+	.may-head{
+		line-height: 54px;
+	}
+	.may-category{
+		line-height: 42px;
+	}
+	/*====================================== SECTION NAVBAR ======================================*/
+	header .container-nav
+	{
+		padding: 5px 15px;
+	}
+	header nav
+	{
+		padding: 0;
+	}
+	header #navigation .logo
+	{
+		margin-top: 0;
+	}
+	header #navigation .logo img.navbar-logo
+	{
+		width: 125px;
+	}
+	.nav-toggle
+	{
+		display: block;
+	}
+	img.navbar-logo
+	{
+		width: 60px;
+		margin-top: 15px;
+		margin-left: 0;
+		/*height: 50px;*/
+	}
+	ul.navbar-search
+	{ 
+		max-width: 55%;
+	}
+	ul.menu-right,
+	ul.menu-right li
+	{
+		padding: 20px 0;
+	}
+	ul.menu-right
+	{
+		transition: opacity 1s ease-out;
+		opacity: 0;
+		height: 10px;
+		overflow: hidden;
+		text-align: center;
+		float: none;
+		clear: both;
+		padding: 0 10px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		transition: all 0.3s;
+		transition-delay: 0.3s;
+		border-bottom: 1px solid #0e1111;
+	}
+	ul.menu-right.collapse
+	{
+		opacity: 1;
+		height: 100%;
+		display: block;
+		z-index: 99;
+		padding: 20px 0;
+	}
+	ul.menu-right li
+	{
+		display: inline-block;
+		margin: 0 5px;
+	}
+	ul.menu-right li .li-register
+	{
+		margin-right: 0;
+	}
+	ul.menu-right li a
+	{
+		color: #010101;
+		font-size: 18px;
+	}
+	ul.menu-right li a.btn-utama
+	{
+		color: #fff;
+	}
+	ul.menu-right li .li-login.btn-kedua
+	{
+		color: #010101;
+		border-color: #010101;
+	}
+	ul.menu-right li.catalog:before, ul.menu-right li.contact:before
+	{
+		top: 80%;
+	}
+	/*====================================== SECTION LANDING PAGE ======================================*/
+	section
+	{
+		margin-bottom: 0;
+	}
+	.hero-word
+	{
+		padding-top: 0;
+	}
+	.hero-word h2.may-category
+	{
+		text-align: center;
+		font-size: 36px;
+	}
+	.dash-hero
+	{
+		margin: 10px auto;
+	}
+	section.section-interest
+	{
+		padding: 50px 0;
+		margin-bottom: 0;
+	}
+	.interest-wrapper
+	{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.interest-wrapper h2.may-category
+	{
+		font-size: 50px;
+	}
+	.interest-wrapper h2 span
+	{
+		bottom: -25px;
+	}
+	.interest-wrapper .word
+	{
+		font-size: 20px;
+		text-align: left;
+		margin-left: 20px;
+	}
+	.over-image
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.section-over .may-headline
+	{
+		text-align: center;
+	}
+	.over-list .over-icon
+	{
+		padding-top: 10px;
+	}
+	section.section-features-home
+	{
+		margin: 0;
+	}
+	.section-features-home .may-headline
+	{
+		text-align: center;
+	}
+	.feature-image
+	{
+		opacity: 0.3;
+	}
+	.signup-container
+	{
+		padding: 30px 20px;
+	}
+	.signup-image
+	{
+		max-width: 150px;
+		opacity: 0.5;
+	}
+	.signup-container .signup-word .action
+	{
+		margin: 20px auto;
+		text-align: center;
+	}
+	.signup-container .signup-word .download .download-app
+	{
+		max-width: 130px;
+		margin: 0 5px;
+	}
+	
+	/*====================================== SECTION EDUCATION PAGE ======================================*/
+	section.section-edu-kelas
+	{
+		padding: 10px 0;
+		margin-top: 300px;
+		margin-bottom: 25px;
+	}
+	.container.container-modul
+	{
+		margin-top: -300px;
+	}
+	.section-edu-intermezo .interest-wrapper
+	{
+		text-align: left;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		margin-bottom: 30px;
+		margin-left: 15%;
+	}
+	section.section-edu-benefit
+	{
+		height: auto;
+	}
+	section.section-edu-benefit .may-headline
+	{
+		margin-bottom: 20px;
+	}
+	.edu-benefit-container .phone
+	{
+		margin-bottom: 50px;
+	}
+	.edu-benefit-container .benefit
+	{
+		position: static;
+		margin-bottom: 50px;
+	}
+	.edu-benefit-container .benefit .wrapper
+	{
+		margin: 0 auto;
+	}
+	section.section-edu-intermezo
+	{
+		padding: 50px 0 25px 0;
+		margin-bottom: 30px;
+	}
+	.section-edu-intermezo .interest-wrapper .word
+	{
+		max-width: 200px;
+	}
+	.card-kelas .banner
+	{
+		height: 200px;
+	}
+	/*====================================== SECTION EDUCATION PAGE ======================================*/
+	section.section-campaign .may-headline h2.may-category
+	{
+		font-size: 36px;
+	}
+	.row-campaign
+	{
+		flex-direction: column;
+	}
+	.row-campaign:last-child
+	{
+		margin-bottom: 50px;
+	}
+	.campaign-image .image
+	{
+		margin-bottom: 25px;
+	}
+	.campaign-word .word h2.may-category
+	{
+		font-size: 26px;
+	}
+	.campaign-word .cta
+	{
+		text-align: center;
+	}
+	/*====================================== SECTION FITUR PAGE ======================================*/
+	.row-feature
+	{
+		margin-top: 100px;
+	}
+	.list-group.vertical-steps
+	{
+		margin-left: 0;
+		padding-left: 15px;
+	}
+	.list-word
+	{
+		padding: 25px 0;
+		max-width: 320px;
+		min-width: 300px;
+	}
+	.list-left
+	{
+		position: static;
+		left: 0;
+	}
+	.list-right
+	{
+		margin-left: 0;
+	}
+	.list-left .image,
+	.list-group-item .image
+	{
+		max-width: 300px;
+		min-width: 300px;
+		right: 0;
+	}
+	.list-left .list-word
+	{
+		text-align: left;
+		right: 0;
+	}
+	.list-left .list-word .icon
+	{
+		top: 20px;
+		left: 125px;
+	}
+	.list-right .list-word .icon
+	{
+		top: 20px;
+		right: -100px;
+	}
+	.list-word .icon .image
+	{
+		width: 50px;
+		height: 50px;
+	}
+	/*====================================== SECTION FOOTER PAGE ======================================*/
+	.footer-top .word
+	{
+		margin-bottom: 20px;
+	}
+	.row-footer
+	{
+		flex-direction: column;
+		margin-bottom: 200px;
+	}
+	.footer-top .may-headline
+	{
+		text-align: center;
+	}
+	footer.footer
+	{
+		padding: 25px 0 50px 0;
+	}
+	.footer-image
+	{
+		top: -150px;
+	}
+	footer.footer .hero-word
+	{
+		margin-top: 20px;
+	}
+	.footer-wrapper .image
+	{
+		margin: auto;
+	}
+	.footer-wrapper
+	{
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	.footer-wrapper ul
+	{
+		margin-top: 10px;
+	}
+}
