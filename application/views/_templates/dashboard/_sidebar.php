@@ -62,7 +62,7 @@
 				</li>
 			<?php endif; ?>
 
-			<?php if ($this->ion_auth->is_admin()) : ?>
+				<?php if ($this->ion_auth->is_admin()) : ?>
 				<li class="treeview <?= in_array($page, $master)  ? "active menu-open" : ""  ?>">
 					<a href="#"><i class="fa fa-folder"></i> <span>Our Insight</span>
 						<span class="pull-right-container">
